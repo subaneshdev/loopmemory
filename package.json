@@ -1,0 +1,12 @@
+{
+    "name": "loopmemory-root",
+    "private": true,
+    "scripts": {
+        "dev": "npm run dev --prefix apps/web",
+        "dev:web": "npm run dev --prefix apps/web -- -p 3001",
+        "start:server": "npm start --prefix apps/server"
+    },
+    "workspaces": [
+        "apps/*"
+    ]
+}
