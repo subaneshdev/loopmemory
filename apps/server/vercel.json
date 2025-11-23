@@ -1,23 +1,7 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "dist/api.js",
-            "use": "@vercel/node"
+    "functions": {
+        "api/**/*.ts": {
+            "runtime": "@vercel/node@3.0.0"
         }
-    ],
-    "routes": [
-        {
-            "src": "/mcp",
-            "dest": "dist/api.js"
-        },
-        {
-            "src": "/message",
-            "dest": "dist/api.js"
-        },
-        {
-            "src": "/health",
-            "dest": "dist/api.js"
-        }
-    ]
+    }
 }
