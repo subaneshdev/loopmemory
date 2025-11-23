@@ -1,12 +1,20 @@
 {
-    "name": "loopmemory-root",
-    "private": true,
+    "name": "loopmemory",
+    "version": "1.0.0",
+    "type": "module",
     "scripts": {
-        "dev": "npm run dev --prefix apps/web",
-        "dev:web": "npm run dev --prefix apps/web -- -p 3001",
-        "start:server": "npm start --prefix apps/server"
+        "build": "echo 'No build needed for serverless functions'"
     },
-    "workspaces": [
-        "apps/*"
-    ]
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.4",
+        "@supabase/supabase-js": "^2.47.10",
+        "@pinecone-database/pinecone": "^4.0.0",
+        "@google/generative-ai": "^0.21.0",
+        "zod": "^3.24.1"
+    },
+    "devDependencies": {
+        "@vercel/node": "^3.0.0",
+        "typescript": "^5.7.2",
+        "@types/node": "^22.10.1"
+    }
 }
