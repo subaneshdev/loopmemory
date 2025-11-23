@@ -1,0 +1,8 @@
+{
+    "buildCommand": "cd apps/server && npm install && npm run build",
+    "functions": {
+        "api/**/*.ts": {
+            "runtime": "@vercel/node@3.0.0"
+        }
+    }
+}
