@@ -67,4 +67,4 @@ MIT License - see [LICENSE](LICENSE)
 
 ## 🙏 Acknowledgments
 
-Inspired by [Supermemory](https://supermemory.ai) - building an open-source alternative for the community.
+ISubanesh :)
