@@ -5,8 +5,8 @@ import {
     CallToolRequestSchema,
     ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
-import { addMemory, addMemorySchema, search, searchSchema } from '../src/tools/memory.js';
-import { getProjects, whoAmI } from '../src/tools/identity.js';
+import { addMemory, addMemorySchema, search, searchSchema } from '../apps/server/src/tools/memory.js';
+import { getProjects, whoAmI } from '../apps/server/src/tools/identity.js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Enable CORS
