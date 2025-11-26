@@ -2,9 +2,7 @@
     "name": "loopmemory",
     "version": "1.0.0",
     "type": "module",
-    "scripts": {
-        "build": "echo 'No build needed for serverless functions'"
-    },
+    "scripts": {},
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.4",
         "@supabase/supabase-js": "^2.47.10",
