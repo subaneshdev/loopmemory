@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "type": "module",
     "engines": {
-        "node": "20.x"
+        "node": "18.x"
     },
     "scripts": {},
     "dependencies": {
@@ -14,7 +14,7 @@
         "zod": "^3.24.1"
     },
     "devDependencies": {
-        "@vercel/node": "^3.0.0",
+        "@vercel/node": "^3.2.0",
         "typescript": "^5.7.2",
         "@types/node": "^22.10.1"
     }
