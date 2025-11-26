@@ -5,9 +5,7 @@
     "engines": {
         "node": "20.x"
     },
-    "scripts": {
-        "build": "npm run build --prefix apps/web"
-    },
+    "scripts": {},
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.4",
         "@supabase/supabase-js": "^2.47.10",
