@@ -5,7 +5,9 @@
     "engines": {
         "node": "20.x"
     },
-    "scripts": {},
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.4",
         "@supabase/supabase-js": "^2.47.10",
