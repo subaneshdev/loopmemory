@@ -6,7 +6,7 @@
         "node": "20.x"
     },
     "scripts": {
-        "build": "cd apps/web && npm run build"
+        "build": "npm run build --prefix apps/web"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.4",
